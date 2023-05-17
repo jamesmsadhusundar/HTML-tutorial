@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(to right ,rgb(7, 82, 234), rgb(11, 181, 215));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.press_start_2p{
+    font-family:"press start 2p";
+    color: white;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: consolas;
+}
+
+#btn span button{
+    margin-top: 2%;
+    margin-left: 45%;
+    padding: 20px;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+#login{
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 2px;
+    padding-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#login h2{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 40px;
+}
+
+.login{
+    color: white;
+    font-family: consolas;
+}
+
+#forget{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}

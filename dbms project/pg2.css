@@ -1,0 +1,67 @@
+body{
+    background: linear-gradient(to right ,rgb(238, 207, 67), rgb(218, 89, 4));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.press_start_2p{
+    font-family:"press start 2p";
+    color: white;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: consolas;
+}
+
+#reg{
+    border: 2px solid white;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-bottom: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#reg h2{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 40px;
+}
+
+#reg label{
+    font-family: consolas;
+    color: white;
+}
+
+#btn span button{
+    margin-top: 3%;
+    margin-left: 43%;
+    margin-bottom: 2%;
+    padding: 20px;
+    font-size: 18px;
+    background: transparent;
+    border-radius: 30px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
